@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext"],
+        "target": "esnext",
+        "removeComments": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "rootDir": "src",
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

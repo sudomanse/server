@@ -1,0 +1,10 @@
+# folders
+node_modules/
+dist/
+
+# config files
+.env
+ormconfig.json
+
+# database files
+*.sqlite
