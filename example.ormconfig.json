@@ -5,5 +5,5 @@
     "entities": [
         "dist/entity/*.js"
     ],
-    "logging": true
+    "logging": false
 }
