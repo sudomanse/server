@@ -13,32 +13,32 @@ const LEVEL_CRITITCAL = 50;
 class Logger {
 
     public static TRAC(message) {
-        if (CONFIG.DEBUG <= LEVEL_TRACE) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_TRACE) {
             console.log(`[TRAC] ${message}`);
         }
     }
     public static DEBU(message) {
-        if (CONFIG.DEBUG <= LEVEL_DEBUG) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_DEBUG) {
             console.log(`[DEBU] ${message}`);
         }
     }
     public static INFO(message) {
-        if (CONFIG.DEBUG <= LEVEL_INFO) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_INFO) {
             console.log(`[INFO] ${message}`);
         }
     }
     public static WARN(message) {
-        if (CONFIG.DEBUG <= LEVEL_WARNING) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_WARNING) {
             console.log(`[WARN] ${message}`);
         }
     }
     public static ERRO(message) {
-        if (CONFIG.DEBUG <= LEVEL_ERROR) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_ERROR) {
             console.log(`[ERRO] ${message}`);
         }
     }
     public static CRIT(message) {
-        if (CONFIG.DEBUG <= LEVEL_CRITITCAL) {
+        if (CONFIG.SERVER_DEBUG <= LEVEL_CRITITCAL) {
             console.log(`[CRIT] ${message}`);
         }
     }
