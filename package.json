@@ -14,7 +14,7 @@
     "mqtt": "^3.0.0",
     "reflect-metadata": "^0.1.13",
     "sqlite": "^3.0.3",
-    "typeorm": "^0.2.18",
+    "typeorm": "^0.2.25",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
